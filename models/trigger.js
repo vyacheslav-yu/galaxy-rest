@@ -13,16 +13,16 @@ function randomArrayElement(array) {
 function Trigger() {
 	var STATES = {
 			a : {
-				b : 30,
-				c : 50
+				b : 50,
+				c : 150
 			},
 			b : {
-				a : 30,
-				c : 20
+				a : 50,
+				c : 100
 			},
 			c : {
-				a : 50,
-				b : 20
+				a : 150,
+				b : 100
 			}
 		},
 		currentState = 'a',
