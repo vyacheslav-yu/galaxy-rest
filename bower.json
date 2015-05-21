@@ -1,0 +1,20 @@
+{
+  "name": "galaxy-client-jquery",
+  "main": "index.js",
+  "version": "1.0.0",
+  "homepage": "https://github.com/vyacheslav-yu/galaxy-client-jquery",
+  "authors": [
+    "vyacheslav-yu <spat.ne.hochu@gmail.com>"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": "~2.1.4"
+  }
+}
