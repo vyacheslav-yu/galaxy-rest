@@ -3,6 +3,7 @@ var http    = require('http'),
 	itemTwo = new (require('./models/trigger')).Trigger();
 
 itemOne.setRandomState();
+
 itemTwo.setRandomState();
 
 http.createServer(function(req, res) {
