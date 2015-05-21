@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+	<meta charset="UTF-8">
+	<title>Galaxy Client powered by jQuery</title>
+	<link rel="stylesheet" href="index.css">
+</head>
+<body>
+	<div class="item" style="display: none">
+		<div class="item__name">One</div>
+		<div class="item__time">00:30</div>
+		<div class="item__status status">
+			<div class="status__line">
+				<div class="status__fill"></div>
+			</div>
+			<div class="status__text">90%</div>
+		</div>
+		<div class="item__control">
+			<button id="a" class="button button_selected">Состояние A</button>
+			<button id="b" class="button">Состояние B</button>
+			<button id="c" class="button">Состояние C</button>
+			<button id="r" class="button button_disabled">В случайное</button>
+		</div>
+	</div>
+
+	<script src="bower_components/jquery/dist/jquery.min.js"></script>
+	<script src="index.js"></script>
+</body>
+</html>
