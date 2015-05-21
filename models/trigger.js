@@ -13,7 +13,7 @@ function randomArrayElement(array) {
 function Trigger() {
 	var STATES = {
 			a : {
-				b : 10,
+				b : 50,
 				c : 150
 			},
 			b : {
